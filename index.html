@@ -6,16 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Terminaator</title>
+    <style>
+        .scrolled {
+            color: white !important;
+        }
+    </style>
+        <style>
+            .scrolled2 {
+                color: rgb(255, 0, 0) !important;
+            }
+        </style>
 </head>
 <header></header>
 <body>
     <pealeht>
         <nav class="nav">
             <img src="  https://terminaator.ee/wp-content/uploads/2023/06/terminaator-logo.svg" alt="">
-            <a  href="#pealeht" style="font-size: xx-large; color: white;"><span>Pealeht</span></a></li>
-            <a  href="#liikmed" style="font-size: xx-large; color: white;"><span>Liikmed</span></a></li>
-            <a  href="#looming" style="font-size: xx-large; color: white;"><span>Looming</span></a></li>
-            <a  href="#kontakt" style="font-size: xx-large; color: white;"><span>Kontakt</span></a></li>
+            <a  id="nav1" href="#pealeht" style="font-size: xx-large; color: rgb(255, 0, 0);"><span>Pealeht</span></a></li>
+            <a  id="nav2" href="#liikmed" style="font-size: xx-large; color: white;"><span>Liikmed</span></a></li>
+            <a  id="nav3" href="#looming" style="font-size: xx-large; color: white;"><span>Looming</span></a></li>
+            <a  id="nav4" href="#kontakt" style="font-size: xx-large; color: white;"><span>Kontakt</span></a></li>
     </nav>
     <section id="pealeht" class="row">
         <div class="joker" ><img src="https://terminaator.ee/wp-content/uploads/2023/06/Juulik.svg" alt=""></div>
@@ -152,5 +162,46 @@
                 </div>
         </div>
     </kontakt>
+
+    <script>
+        const header = document.getElementById("nav1");
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 1000) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+    <script>
+        const header2 = document.getElementById("nav2");
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 1000 && window.scrollY < 2000) {
+                header2.classList.add('scrolled2');
+            } else {
+                header2.classList.remove('scrolled2');
+            }
+        });
+    </script>
+    <script>
+        const header3 = document.getElementById("nav3");
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 2000 && window.scrollY < 3400) {
+                header3.classList.add('scrolled2');
+            } else {
+                header3.classList.remove('scrolled2');
+            }
+        });
+    </script>
+    <script>
+        const header4 = document.getElementById("nav4");
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 3400) {
+                header4.classList.add('scrolled2');
+            } else {
+                header4.classList.remove('scrolled2');
+            }
+        });
+    </script>
 </body>
 </html>
