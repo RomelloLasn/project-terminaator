@@ -47,16 +47,16 @@ nav a:hover span {
     line-height: 160%;
     min-height: 820px;
     background-color: rgba(0, 0, 0, 0.5) !important;
-    padding-top: 10%;
+    padding-top: 45%;
     font-size: x-large;
 }
 
-#p2 {
-    padding-left: 30%;
-}
+
 
 #tutvustus {
-    color: rgba(194, 194, 194, 0.8);
+    
+    
+    color: rgb(212, 204, 204);
     font-size: xx-large;
 }
 
@@ -235,4 +235,9 @@ nav a:hover span {
     justify-content: center;
     text-align: center;
     color: #fff;
+  }
+
+  .joker{
+    width:500px;
+    height: 500px;
   }
