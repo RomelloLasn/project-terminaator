@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    margin: 20px;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
+   
     color: white;
     background-color: black;
     font-family: "Roboto", sans-serif;
@@ -14,96 +14,34 @@ body {
     background-repeat: no-repeat;
     background-image: url(https://www.goodnews.ee/wp-content/uploads/2015/02/terminaator_foto_kristjan_lepp-e1424879272127.jpg);
     min-height: 100vh;
-    margin: 0;
-   
 }
 
-.contact-container {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    
-    height: screen;
-}
-
-.contact-info {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    width: 200px;
-    height: 500px;
-}
-
-.group-photo-container {
-    display: flex;
-    justify-content: center;
-    width: 600px;
-    height: 600px;
-}
-
-.contact-container {
-    margin-top: 40px;
-    padding-bottom: 50px;
-}
-
-.contact-header {
-    text-decoration: underline 1px;
-    text-underline-offset: 8px;
-}
-
-.mail {
-    margin: 0;
-    width: 200px;
-    color: gray;
-    padding-bottom: 30px;
-    text-decoration: underline;
-}
-
-.title {
-    margin: 0;
-    padding-bottom: 10px;
-    width: 200px;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.group-photo {
-    height: 500px;
-}
-
-    nav {
+nav {
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
     padding-top: 1%;
     padding-bottom: 1%;
-    display: flex;
-    align-items: center;
     gap: 6%;
     background-color: rgba(0, 0, 0, 0.5) !important;
+    box-sizing: border-box;
 }
 
 nav a {
-    display: flex;
     display: inline-block;
     padding-left: 1%;
     text-decoration: none;
     color: rgba(255, 255, 255, 1) !important;
-    text-decoration: none;
 }
 
 nav a:hover span {
     color: rgb(142, 140, 140) !important;
 }
-
 
 #pealeht {
     line-height: 160%;
@@ -118,15 +56,19 @@ nav a:hover span {
 }
 
 #tutvustus {
-    color: rgb(194, 194, 194, 0.8);
+    color: rgba(194, 194, 194, 0.8);
     font-size: xx-large;
 }
 
 .contact-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: row;
-    width: 900px;
-    height: 500px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    padding-bottom: 50px;
 }
 
 .contact-info {
@@ -144,18 +86,12 @@ nav a:hover span {
     height: 600px;
 }
 
-.contact-container {
-    margin: 0;
-    padding-bottom: 50px;
-}
-
 .contact-header {
     text-decoration: underline 1px;
     text-underline-offset: 8px;
 }
 
 .mail {
-
     margin: 0;
     width: 200px;
     color: gray;
@@ -176,3 +112,127 @@ nav a:hover span {
 .group-photo {
     height: 500px;
 }
+.name {
+    font-size: 40px ;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    text-align: right;
+    width: fit-content;
+}
+.role {
+    text-align: center;
+    margin: 0;
+    font-size: 24px ;
+    font-weight: 600;
+    color: #898989;
+    opacity: 70%;
+    width: 200px;
+    margin-bottom: 8px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.imgbox{
+    display: flex;
+    justify-content: center;
+}
+.member{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pildid {
+    height: 300px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding-bottom: 30px;
+    }
+    .pildid img {
+        width: 216px;
+        height: auto;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .pildid img:hover {
+        transform: scale(1.2);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+.pildid2 {
+    height: 300px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding-bottom: 30px;
+    }
+    .pildid2 img {
+        width: 216px;
+        height: auto;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .pildid2 img:hover {
+        transform: scale(1.2);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+.pildid3 {
+    height: 300px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding-bottom: 30px;
+    }
+    .pildid3 img {
+        width: 216px;
+        height: auto;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .pildid3 img:hover {
+        transform: scale(1.2);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+  .Pildid4 {
+    height: 300px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding-bottom: 30px;
+    }
+    .Pildid4 img {
+        width: 216px;
+        height: auto;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .Pildid4 img:hover {
+        transform: scale(1.2);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+  .pilt {
+    border-radius: 10px;
+    width: 216px;
+  }
+  .r14{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .lood{
+    margin-top: 50px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
