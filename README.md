@@ -17,6 +17,8 @@
 3. päev: Kodeerimine, Mobiili vaate alustamine Figmas.
 
    ![{BF8EAC7C-4E35-4387-9579-EA0D520088DE}](https://github.com/user-attachments/assets/ddd17d1a-9826-4459-b1ac-a4a8c80d70a9)
+   ![{48A2CFB7-56DA-4DA7-AC25-D3796333C647}](https://github.com/user-attachments/assets/b32db9fa-b97c-4422-aa02-c7e25989f883)
+
 
 5. päev: Mobiili vaate viimistlemine Figmas ja veebilehel, readme koostamine **4x**.
 
