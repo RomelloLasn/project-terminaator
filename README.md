@@ -26,7 +26,7 @@
 
 # Küsitlus
 
-<br/>**1.Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
+<br/>**1. Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
 <br/>2. Üks pehme oskus, mida õppisin ja endas arendasin
 <br/>3. Üks tehniline oskus, mida õppisin ja endas arendasin**
 
@@ -61,9 +61,9 @@
 3.Õppisin CSS-i.
 
 <br/>**Siim Nurja**
-1.
-2.
-3.
+1. Olin oma rolliga rahul. Sain rohkem juurde teadmisi HTML ja CSS kasutamise osas
+2. Meeskonna töö ja probleemide lahendamine
+3. CSS’i kasutamine
 
 <br/>**Romello Lasn**
 1. Sobisid kõik ülesanded mis tiimis olid.
