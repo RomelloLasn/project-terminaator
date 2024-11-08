@@ -11,6 +11,8 @@
 <br/>**Siim Nurja** - Kodeerija, loomingute koostaja
 <br/>**Romello Lasn** - Abistaja
 
+Figma: https://www.figma.com/design/LjpkvfYFZbY9I46vX6TQ4x/Terminaator?m=auto&t=8SW0enKxEoa0vAGW-1
+
 1. päev: Tiimiliikmete tutvustamine, Figmas veebilehe disaini koostamine, kodeerimine, jagasime rollid.
 
    ![{604F3D16-5485-4E94-BA51-8031A3C19301}](https://github.com/user-attachments/assets/8e3c546f-fdf3-4364-afda-e36d1b851b18)
