@@ -31,6 +31,8 @@ nav {
     box-sizing: border-box;
 }
 
+
+
 nav a {
     display: inline-block;
     padding-left: 1%;
@@ -133,6 +135,9 @@ nav a:hover span {
     justify-content: space-around;
     margin-bottom: 15px;
 }
+@media screen and (max-width: 768px) {
+
+}
 .img{
     height: 200px;
     width: 200px;
@@ -156,6 +161,14 @@ nav a:hover span {
     gap: 5px;
     padding-bottom: 30px;
     }
+
+    @media screen and (max-width: 768px) {
+        .pildid{
+            grid-template-columns: repeat(1, 1fr);
+            height: 2000px
+        }
+        }
+
     .pildid img {
         width: 216px;
         height: auto;
@@ -182,6 +195,12 @@ nav a:hover span {
         transform: scale(1.2);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     }
+    @media screen and (max-width: 768px) {
+        .pildid2{
+            grid-template-columns: repeat(1, 1fr);
+            height: 2000px
+        }
+        }
 .pildid3 {
     height: 300px;
     display: grid;
@@ -199,7 +218,15 @@ nav a:hover span {
         transform: scale(1.2);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     }
-  .Pildid4 {
+
+    @media screen and (max-width: 768px) {
+        .pildid3{
+            grid-template-columns: repeat(1, 1fr);
+            height: 2000px
+        }
+        }
+
+  .pildid4 {
     height: 300px;
     display: grid;
     text-align: center;
@@ -207,15 +234,22 @@ nav a:hover span {
     gap: 5px;
     padding-bottom: 30px;
     }
-    .Pildid4 img {
+    .pildid4 img {
         width: 216px;
         height: auto;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
-    .Pildid4 img:hover {
+    .pildid4 img:hover {
         transform: scale(1.2);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     }
+
+    @media screen and (max-width: 768px) {
+        .pildid4{
+            display: none;
+        }
+        }
+
   .pilt {
     border-radius: 10px;
     width: 216px;
@@ -334,4 +368,41 @@ nav a:hover span {
 
     #liikmed img:hover {
         transform: scale(2);
+    }
+    @media screen and (max-width: 768px) {
+        .nav {
+            display: none; /* Hide the nav by default on mobile */
+        }
+    }
+    .logo-container {
+        position: absolute; /* Position the logo absolutely within the container */
+        top: 20%; /* Adjust this value to position the logo vertically */
+        left: 50%; /* Center the logo horizontally */
+        transform: translate(-50%, -50%); /* Center the logo */
+        z-index: 1; /* Ensure the logo is on top of the background */
+    }
+    
+    .logo {
+        max-width: 140px; /* Set a maximum width for the logo */
+        height: auto; /* Maintain aspect ratio */
+    }
+    @media screen and (min-width: 768px) {
+        .logo-container {
+            display: none; /* Hide the nav by default on mobile */
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .members-container {
+            flex-direction: column; /* Stack members in a single column */
+            align-items: center; /* Center items horizontally */
+        }
+    
+        .member {
+            width: 100%; /* Make each member take full width */
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .group-photo-container {
+            display: none; /* Hide the nav by default on mobile */
+        }
     }
