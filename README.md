@@ -26,14 +26,14 @@
 
 # Küsitlus
 
-**1.Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
-2. Üks pehme oskus, mida õppisin ja endas arendasin
-3. Üks tehniline oskus, mida õppisin ja endas arendasin**
+<br/>**1.Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
+<br/>2. Üks pehme oskus, mida õppisin ja endas arendasin
+<br/>3. Üks tehniline oskus, mida õppisin ja endas arendasin**
 
 <br/>**Robby Šakuštelis**
-1.
-2.
-3.
+1. Jah oleks tahtnud koodi kirjutada
+2. Ei
+3. Õppisin C#-i ja Assemblyit ja Javat koos CS ja HTMLiga
 
 <br/>**Helerin Mälk**
 1. Olin oma rolliga rahul.
@@ -42,8 +42,8 @@
 
 <br/>**Ken Martti**
 1. Ei
-2. 
-3. 
+2. Ma õppisin tiimi juhendama
+3. Mitte midagi 
 
 <br/>**Kevin Jasn**
 1. Selles projektis ma olin rohkem  kui mentor ja rolliga olen rahul.
