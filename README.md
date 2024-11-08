@@ -56,9 +56,9 @@
 3. Õppisin Figmat ja githubi kasutama.
 
 <br/>**Sander Armus**
-1.
-2.
-3.
+1.Jah
+2.Õppisin tiimis töötama
+3.Õppisin CSS-i.
 
 <br/>**Siim Nurja**
 1.
