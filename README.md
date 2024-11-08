@@ -5,10 +5,11 @@
 <br/>**Robby Šakuštelis** - Abistaja, juhendaja
 <br/>**Helerin Mälk** - Kodeerija, kontaktide koostaja
 <br/>**Ken Martti** - Juhendaja
-<br/>**Kevin Jasn** - Abistaja
+<br/>**Kevin Jasin** - Abistaja
 <br/>**Oskar Vaht** - Kodeerija, liikmete koostaja 
 <br/>**Sander Armus** - Kodeerija, pealehe koostaja
 <br/>**Siim Nurja** - Kodeerija, loomingute koostaja
+<br/>**Romello Lasn** - Abistaja
 
 1. päev: Tiimiliikmete tutvustamine, Figmas veebilehe disaini koostamine, kodeerimine, jagasime rollid.
 
